@@ -1,0 +1,25 @@
+.btn{
+    width: 100px;
+    height: 35px;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.3s linear;
+}
+
+.btn-submit{
+    background-color: #0a5831;
+    color: #fff;
+    margin-right: 40px;
+}
+
+.btn-cancel{
+    border: 1px solid #0a5831;
+    color: #0a5831;
+    
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

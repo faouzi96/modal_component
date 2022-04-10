@@ -1,0 +1,8 @@
+.modal-title{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(158, 188, 255);
+}

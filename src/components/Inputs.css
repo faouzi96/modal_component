@@ -1,0 +1,29 @@
+.modal-weekly-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.weekly-title{
+    width: 20%;
+    padding: 0 5px;
+}
+
+.weekly-inputs{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.weekly-inputs p{
+    margin: 0 20px;
+}
+
+.day-selector{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #00000080;
+    outline: none;
+    background-color: transparent;
+}

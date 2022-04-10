@@ -1,0 +1,22 @@
+.flag-success{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-success h2{
+    width: 250px;
+    line-height: 70px;
+    color: #3cd1ff;
+    border: 2px solid #3cd1ff;
+    background-color: #3cd1ff10;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
