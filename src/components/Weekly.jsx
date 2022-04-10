@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./Inputs.css";
-import TimeInput from './TimeInput';
 
 /**
  * 
@@ -27,7 +26,7 @@ const Weekly = ({title}) => {
         <option value="sunday">Sunday</option>
       </select>
       <p>at</p>
-      <TimeInput />
+      <input type="time" className="time-selector" defaultValue="13:30" />
     </div>
     </div>
   );

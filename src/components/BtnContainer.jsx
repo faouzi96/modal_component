@@ -1,13 +1,12 @@
 import React from 'react'
-import Btn from './Btn';
 
 import './BtnContainer.css'
 
 function BtnContainer() {
     return (
         <div className="btn-container">
-            <Btn type="reset" />
-            <Btn type="submit" />
+        <button type="reset" className="btn btn-reset">Cancel</button>
+        <button type="submit" className="btn btn-submit">OK</button>
         </div>
     )
 }

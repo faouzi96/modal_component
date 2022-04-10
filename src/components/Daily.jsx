@@ -1,5 +1,4 @@
 import React from 'react'
-import TimeInput from './TimeInput';
 
 /**
  * 
@@ -11,7 +10,7 @@ function Daily({title}) {
       <div className="modal-weekly-container">
       <p className="weekly-title">{title}</p>
       <div className="weekly-inputs">
-        <TimeInput />
+      <input type="time" className="time-selector" defaultValue="13:30" />
       </div>
       </div>
    )

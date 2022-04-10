@@ -1,5 +1,4 @@
 import React from 'react'
-import TimeInput from './TimeInput';
 
 /**
  * 
@@ -14,7 +13,7 @@ function DateInput({title}) {
         <div className="weekly-inputs">
           <input type="date" className="time-selector" defaultValue="2022-04-09"/> 
           <p>at</p>
-          <TimeInput />
+          <input type="time" className="time-selector" defaultValue="13:30" />
         </div>
         </div>
     )
